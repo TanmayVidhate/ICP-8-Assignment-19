@@ -23,8 +23,8 @@
         }
 
         .card {
-            width: 25%;
-            height: 210px;
+            width: 30%;
+            height: 200px;
             /* border: 1px solid black; */
             margin: 5px;
             border-radius: 5px;
@@ -36,15 +36,19 @@
 
         .card-title {
             display: flex;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
             width: 80%;
             /* border: 1px solid red; */
         }
-
+        
         .card-title img {
-            width: 70px;
-            padding: 10px;
+            margin: 10px;
+            width: 60px;
+            padding: 5px;
+            
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px 2px rgb(225, 227, 231);
         }
 
         .card-title div {
@@ -58,11 +62,14 @@
         }
 
         .card-parent{
+
             width: 90%;
             margin: auto;
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
+          
         }
     </style>
 </head>
@@ -106,6 +113,41 @@
                 </div>
             </div>
 
+            <div class="card">
+                <div class="card-title">
+                    <img src="./image/doubt-resolution-md.png" alt="img-card" />
+                    <div>Quick Doubt Resolutions.</div>
+                </div>
+                <div class="card-txt">
+                    <p>Missed a class? or want to revise? No worries, watch the recorded sessions of live classes
+                        multiple times at your own pace and time to understand the concepts better.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <img src="./image/multi-language-md.png" alt="img-card" />
+                    <div>Language Support</div>
+                </div>
+                <div class="card-txt">
+                    <p>Missed a class? or want to revise? No worries, watch the recorded sessions of live classes
+                        multiple times at your own pace and time to understand the concepts better.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <img src="./image/lifetime-free-notes-md.png" alt="img-card" />
+                    <div>Lifetime Free Notes</div>
+                </div>
+                <div class="card-txt">
+                    <p>Missed a class? or want to revise? No worries, watch the recorded sessions of live classes
+                        multiple times at your own pace and time to understand the concepts better.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
