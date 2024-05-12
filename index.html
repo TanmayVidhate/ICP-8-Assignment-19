@@ -12,23 +12,29 @@
             box-sizing: border-box;
         }
 
-        .container{
+        body{
+            background-color: rgb(245, 247, 251);
+        }
+
+        .container {
             width: 100%;
             height: 100vh;
             border: 3px solid red;
         }
 
-        .card{
-            width:25%;
-            height: 200px;
-            border: 1px solid black;
+        .card {
+            width: 25%;
+            height: 210px;
+            /* border: 1px solid black; */
             margin: 5px;
             border-radius: 5px;
             padding: 10px 5px;
             text-align: start;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 1px 1px 2px 2px rgb(225, 227, 231);
         }
 
-        .card-title{
+        .card-title {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,13 +42,19 @@
             /* border: 1px solid red; */
         }
 
-        .card-title img{    
-            width:70px;
+        .card-title img {
+            width: 70px;
             padding: 10px;
         }
 
-        .card-title div{
+        .card-title div {
             font-weight: 600;
+        }
+
+        .card-txt{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 19px;
         }
     </style>
 </head>
@@ -51,13 +63,15 @@
     <div class="container">
         <div class="card-parent">
             <div class="card">
-                    <div class="card-title">
-                        <img src="./image/affordable-md.png"  alt="img-card"/>
-                        <div>Affordable Pricing</div>
-                    </div>
-                    <div class="card-txt">
-                        
-                    </div>
+                <div class="card-title">
+                    <img src="./image/affordable-md.png" alt="img-card" />
+                    <div>Affordable Pricing</div>
+                </div>
+                <div class="card-txt">
+                    <p>Our course price ranges from ₹499 to ₹1999. Which is less than 1% of the cost of a college degree
+                        in India, and we provide more practical and industry-oriented knowledge.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
